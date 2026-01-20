@@ -60,6 +60,36 @@ This is a **binary classification problem**.
 
 ---
 
+## 📊 Evaluation / Classification Report
+
+### 🔹 Confusion Matrix
+
+![Confusion Matrix](assets/Screenshot%202026-01-20%20140855.png)
+
+The confusion matrix shows how well the model classifies patients:
+
+* **True Negatives (22):** Correctly predicted no heart disease
+* **True Positives (30):** Correctly predicted heart disease
+* **False Positives (5):** Predicted disease when not present
+* **False Negatives (4):** Missed disease cases
+
+This indicates the model performs well with relatively few misclassifications.
+
+---
+
+### 🔹 Classification Report Heatmap
+
+![Classification Report Heatmap](assets/Screenshot%202026-01-20%20140911.png)
+
+The heatmap summarizes key performance metrics:
+
+* **Precision:** ~0.85–0.86 (reliable positive predictions)
+* **Recall:** ~0.81–0.88 (good ability to detect disease cases)
+* **F1-score:** ~0.83–0.87 (balanced performance)
+* **Overall Accuracy:** ~85%
+
+---
+
 ## ✅ Conclusion
 
 The Logistic Regression model predicts whether a patient has heart disease based on clinical features. This project is ideal for **machine learning beginners** and **healthcare-based classification problems**.
